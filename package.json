@@ -4,7 +4,9 @@
   "scripts": {
     "ng": "ng",
     "server": "cd server && npm start",
-    "start": "ng serve",
+    "client": "ng serve",
+    "postinstall": "cd server && npm install",
+    "start": "npm run build && cd server && npm start",
     "build": "ng build",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "watch": "ng build --watch --configuration development",
