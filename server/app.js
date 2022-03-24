@@ -19,6 +19,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 // app.use(express.static(path.join(__dirname, 'public')));
 
+app.get("/api", (req, res) => {
+  res.send({ data: { title: "test" } });
+});
+
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../dist/m1p9mean-samyen")));
 
@@ -29,10 +33,6 @@ if (process.env.NODE_ENV === "production") {
 
 // app.use('/', indexRouter);
 // app.use('/users', usersRouter);
-
-app.get("/api", (req, res) => {
-  res.send({ data: { title: "test" } });
-});
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
