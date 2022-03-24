@@ -7,7 +7,7 @@
     "client": "ng serve",
     "postinstall": "cd server && npm install",
     "start": "cd server && npm start",
-    "build": "ng build --prod",
+    "build": "ng build",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
