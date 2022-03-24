@@ -19,13 +19,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 // app.use(express.static(path.join(__dirname, 'public')));
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../dist")));
+// if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../dist/m1p9mean-samyen")));
 
   app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "../dist", "index.html"));
+    res.sendFile(path.join(__dirname, "../dist/m1p9mean-samyen", "index.html"));
   });
-}
+// }
 
 // app.use('/', indexRouter);
 // app.use('/users', usersRouter);
