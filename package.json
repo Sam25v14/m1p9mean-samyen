@@ -6,9 +6,8 @@
     "server": "cd server && npm start",
     "start": "ng serve",
     "build": "ng build",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm start\"",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "watch": "ng build --watch --configuration development",
-    "heroku-postbuild": "cd server && npm install && npm install --only=dev --no-shrinkwrap && npm start",
     "test": "ng test"
   },
   "private": true,
