@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "server": "cd server && npm run dev",
-    "client": "ng serve",
+    "client": "ng serve --open",
     "postinstall": "cd server && npm install",
     "start": "cd server && npm start",
     "build": "ng build",
