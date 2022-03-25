@@ -3,8 +3,9 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
+require('./config/mongoose');
 
-// var indexRouter = require('./routes/index');
+var indexRouter = require('./routes/index');
 // var usersRouter = require('./routes/users');
 
 var app = express();
@@ -19,9 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 // app.use(express.static(path.join(__dirname, 'public')));
 
-app.get("/api", (req, res) => {
-  res.send({ data: { title: "test" } });
-});
+app.use('/api', indexRouter);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../dist/m1p9mean-samyen")));
