@@ -1,10 +1,13 @@
 const mongoose = require('mongoose');
 
 const UserProfileSchema = new mongoose.Schema({
-    profile: {
+    profile_name: {
         type: String,
         required: true
+    },
+    rank: {
+        type: Number
     }
 });
 
-module.exports = mongoose.model('UserProfile', UserProfileSchema, 'user-profile');
+module.exports = mongoose.model('UserProfile', UserProfileSchema, 'user_profile');
