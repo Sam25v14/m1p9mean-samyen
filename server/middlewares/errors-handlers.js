@@ -4,7 +4,11 @@ const logError = (err, req, res, next) => {
 };
 
 const sendError = (err, req, res, next) => {
-  if(err) res.status(err.statusCode || 500).send(err.message);
+  if (err) {
+    if (err.name === "ValidationError")
+      res.status(err.statusCode || 500).json(err);
+    else res.status(err.statusCode || 500).json(JSON.parse(JSON.stringify(err, Object.getOwnPropertyNames(err))));
+  }
 };
 
 module.exports = {
