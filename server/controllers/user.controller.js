@@ -2,6 +2,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const createHttpError = require("http-errors");
 const User = require("../models/user");
+const { resolve } = require("dns");
 
 const { SALT_WORK_FACTOR, JWT_TOKEN_KEY } = process.env;
 
@@ -45,8 +46,8 @@ const hashAndUpdateAllPassword = async (fn) => {
   session.endSession();
 };
 
-const generateToken = ({ _id, email }) => {
-  return jwt.sign({ _id, email }, JWT_TOKEN_KEY, {
+const generateToken = ({ _id, email, profile }) => {
+  return jwt.sign({ _id, email, profile }, JWT_TOKEN_KEY, {
     expiresIn: "2h",
   });
 };
@@ -61,6 +62,7 @@ const login = ({ login, password }, next) => {
 
   User.findOne()
     .or([{ login: login }, { email: login }])
+    .populate("profile")
     .exec((error, user) => {
       if (error) return next(error);
       if (!user) return next(new Error("Erreur Login: Utilisateur non trouvé"));
@@ -80,20 +82,33 @@ const login = ({ login, password }, next) => {
 };
 
 const register = (userInfo, next) => {
-  User.startSession().then(async (session) => {
-    const user = new User(userInfo);
-    await session.withTransaction(async () => {
-      await user.save((error, newuser) => {
-        if (error) return next(error);
-
-        const token = generateToken(newuser);
-        newuser.token = token;
-        next(null, newuser);
+  User.startSession()
+    .then(async (session) => {
+      const user = new User(userInfo);
+      const savedUser = user;
+      await session.withTransaction(async () => {
+        await user.save((error, newuser) => {
+          if (error) return next(error);
+          savedUser = newuser;
+        });
       });
-    });
 
-    session.endSession();
-  });
+      session.endSession();
+
+      return Promise.resolve(savedUser);
+    })
+    .then((user) => {
+      User.findOne({ login: user.login })
+        .populate("profile")
+        .exec((err, user) => {
+          if(err) return next(err);
+          if (!user) return next(new Error("Oups! Une erreur est survenue"));
+
+          const token = generateToken(user);
+          user.token = token;
+          next(null, user);
+        });
+    });
 };
 
 module.exports = {

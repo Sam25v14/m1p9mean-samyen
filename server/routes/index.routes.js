@@ -4,8 +4,9 @@ require("../models/user-profile");
 const User = require("../models/user");
 const userRouter = require("./user.routes");
 const auth = require("../middlewares/auth");
+const restrict = require("../middlewares/restrict");
 
-router.get("/", auth, function (req, res, next) {
+router.get("/", auth, restrict({ profile: "client" }), function (req, res, next) {
   User.find()
     .populate("profile")
     .exec((err, user) => {
