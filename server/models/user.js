@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
-const SALT_WORK_FACTOR = 10;
+const { SALT_WORK_FACTOR } = process.env;
 
 const UserSchema = new mongoose.Schema({
   first_name: {
@@ -24,8 +24,9 @@ const UserSchema = new mongoose.Schema({
     type: Date,
     required: [true, "La date de naissance ne peut pas être vide"],
   },
-  profile_id: {
+  profile: {
     type: mongoose.Schema.Types.ObjectId,
+    ref: 'UserProfile',
     required: true,
   },
   login: {
@@ -44,13 +45,20 @@ const UserSchema = new mongoose.Schema({
   city: {
     type: String,
   },
+  created_at: {
+    type: Date,
+    default: new Date(),
+  },
+  token: {
+    type: String
+  }
 });
 
 UserSchema.pre("save", function (next) {
   const user = this;
 
   if (this.isModified("password") || this.isNew) {
-    bcrypt.genSalt(SALT_WORK_FACTOR, function (saltError, salt) {
+    bcrypt.genSalt(SALT_WORK_FACTOR || 10, function (saltError, salt) {
       if (saltError) {
         return next(saltError);
       } else {

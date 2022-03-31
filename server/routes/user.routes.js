@@ -32,7 +32,7 @@ router.post("/hashPassword", function (req, res, next) {
   hashPassword(req.body.password, (error, hash) => {
     if (error) return next(error);
 
-    res.status(200).send(hash);
+    res.send(hash);
   });
 });
 
@@ -42,7 +42,7 @@ router.put("/updatePassword", function (req, res, next) {
       next(error);
     }
   }).then(() => {
-    res.status(200).send("password hashed!");
+    res.send("password hashed!");
   });
 });
 

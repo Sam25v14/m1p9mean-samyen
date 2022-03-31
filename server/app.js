@@ -3,12 +3,16 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
-const bodyParser = require('body-parser');
+const bodyParser = require("body-parser");
 const { logError, sendError } = require("./middlewares/errors-handlers");
+require("dotenv").config({
+  path: path.join(__dirname, `${process.env.NODE_ENV}.env`)
+});
 
-require('./config/mongoose');
+require("./config/mongoose"); 
 
-var indexRouter = require('./routes/index.routes');
+
+var indexRouter = require("./routes/index.routes");
 // var usersRouter = require('./routes/users');
 
 var app = express();
@@ -26,7 +30,7 @@ app.use(cookieParser());
 
 // app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/api', indexRouter);
+app.use("/api", indexRouter);
 
 app.use(logError);
 app.use(sendError);

@@ -1,11 +1,15 @@
 const bcrypt = require("bcryptjs");
+const jwt = require("jsonwebtoken");
+const createHttpError = require("http-errors");
 const User = require("../models/user");
-const SALT_WORK_FACTOR = 10;
+
+const { SALT_WORK_FACTOR, JWT_TOKEN_KEY } = process.env;
 
 const hashPassword = (password, callback) => {
-  if (!password) return callback(new Error("Pas de valeur"));
+  if (!password)
+    return callback(new createHttpError.BadRequest("Valeur manquante"));
 
-  bcrypt.genSalt(SALT_WORK_FACTOR, function (saltError, salt) {
+  bcrypt.genSalt(SALT_WORK_FACTOR || 10, function (saltError, salt) {
     if (saltError) {
       callback(saltError);
     } else {
@@ -41,9 +45,19 @@ const hashAndUpdateAllPassword = async (fn) => {
   session.endSession();
 };
 
+const generateToken = ({ _id, email }) => {
+  return jwt.sign({ _id, email }, JWT_TOKEN_KEY, {
+    expiresIn: "2h",
+  });
+};
+
 const login = ({ login, password }, next) => {
   if (!login || !password)
-    return next(new Error("Erreur Login: Login ou mot de passe absent"));
+    return next(
+      new createHttpError.BadRequest(
+        "Erreur Login: Login ou mot de passe absent"
+      )
+    );
 
   User.findOne()
     .or([{ login: login }, { email: login }])
@@ -58,18 +72,27 @@ const login = ({ login, password }, next) => {
             new Error("Erreur Login: Le login ou le mot de passe est erroné")
           );
 
+        const token = generateToken(user);
+        user.token = token;
         next(null, user);
       });
     });
 };
 
 const register = (userInfo, next) => {
-  const user = new User(userInfo);
+  User.startSession().then(async (session) => {
+    const user = new User(userInfo);
+    await session.withTransaction(async () => {
+      await user.save((error, newuser) => {
+        if (error) return next(error);
 
-  user.save((error, newuser) => {
-    if (error) return next(error);
+        const token = generateToken(newuser);
+        newuser.token = token;
+        next(null, newuser);
+      });
+    });
 
-    next(null, newuser);
+    session.endSession();
   });
 };
 
