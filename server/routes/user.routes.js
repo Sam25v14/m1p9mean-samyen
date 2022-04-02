@@ -6,11 +6,13 @@ const {
   hashPassword,
   register
 } = require("../controllers/user.controller");
+const auth = require("../middlewares/auth");
 
 /* GET users listing. */
-router.get("/", function (req, res, next) {
-  res.send("respond with a resource");
+router.get("/", auth, function (req, res, next) {
+  res.json({ text: "text" });
 });
+
 
 router.post("/login", function (req, res, next) {
   login(req.body, (error, user) => {

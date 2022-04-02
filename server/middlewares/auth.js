@@ -4,8 +4,10 @@ const createHttpError = require("http-errors");
 const config = process.env;
 
 const verifyToken = (req, res, next) => {
-  const authHeader = req.headers["authorization"];
-  const token = authHeader && authHeader.split(" ")[1];
+  // const authHeader = req.headers["authorization"];
+  // const token = authHeader && authHeader.split(" ")[1];
+  const token =
+    req.body.token || req.query.token || req.headers["x-access-token"];
 
   if (!token) {
     // return res.status(403).send("A token is required for authentication");
