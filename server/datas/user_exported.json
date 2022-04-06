@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "62459fbcea5aec9c47340f9e"
+  },
+  "first_name": "Mario Safidy",
+  "last_name": "Ramantsoavina",
+  "email": "ramantsoavina.safidy@yopmail.com",
+  "birth_date": {
+    "$date": "1990-10-25T00:00:00Z"
+  },
+  "created_at": {
+    "$date": "2022-03-28T17:29:00Z"
+  },
+  "profile": {
+    "$oid": "6241b6e04e52429893ae0216"
+  },
+  "login": "mario.safidy",
+  "password": "$2a$10$F1ptr3rtWK2SmFgtfIa1oereZINlH92DvAuDW9tQRCf5MFqhho09e",
+  "city": "Antananarivo"
+},{
+  "_id": {
+    "$oid": "6245b99486861b420d64fbb4"
+  },
+  "first_name": "test",
+  "last_name": "test",
+  "email": "test@gmail.com",
+  "birth_date": {
+    "$date": "1998-02-10T00:00:00Z"
+  },
+  "profile": {
+    "$oid": "6241b6e04e52429893ae0216"
+  },
+  "login": "test",
+  "password": "$2a$10$dQ74akgMmeJo5MVKrKilcekduvpEZ6g5MPndaqIHNhICswZ/1QV22",
+  "created_at": {
+    "$date": "2022-03-31T14:24:11.681Z"
+  }
+}]
