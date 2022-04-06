@@ -107,6 +107,7 @@ const register = (userInfo, next) => {
 
           const token = generateToken(user);
           user.token = token;
+          user.password = '😍';
           next(null, user);
         });
     });

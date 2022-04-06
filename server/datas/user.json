@@ -1,0 +1,13 @@
+[
+  {
+    "first_name": "Mario Safidy",
+    "last_name": "Ramantsoavina",
+    "email": "ramantsoavina.safidy@yopmail.com",
+    "birth_date": { "$date": "1990-10-25" },
+    "created_at": { "$date": "2022-03-28T17:29:00.000Z" },
+    "profile": { "$oid": "6241b6e04e52429893ae0216" },
+    "login": "mario.safidy",
+    "password": "testing123+",
+    "city": "Antananarivo"
+  }
+]

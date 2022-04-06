@@ -1,0 +1,22 @@
+[
+    {
+        "_id": { "$oid": "6241b6e04e52429893ae0216" },
+        "profile_name": "client",
+        "rank": 1
+    },
+    {
+        "_id": { "$oid": "6241b6e04e52429893ae0217" },
+        "profile_name": "restaurant",
+        "rank": 10
+    },
+    {
+        "_id": { "$oid": "6241b6e04e52429893ae0218" },
+        "profile_name": "livreur",
+        "rank": 5
+    },
+    {
+        "_id": { "$oid": "6241b6e04e52429893ae0219" },
+        "profile_name": "admin",
+        "rank": 20
+    }
+]
