@@ -1,0 +1,62 @@
+[
+  {
+    "nom": "Nerone Restaurant Italiano",
+    "adresse": "Lalana Rabobalahy, Antananarivo",
+    "telephone": "0202223118",
+    "coordonnees": {
+      "long": -18.910804194919574,
+      "lat": 47.52791034788361
+    },
+    "date": {
+      "$date": "2013-07-12"
+    }
+  },
+  {
+    "nom": "La Plantation",
+    "adresse": "4GCF+44W, Antananarivo",
+    "telephone": "0341341680",
+    "coordonnees": {
+      "long": -18.878435803473764, 
+      "lat": 47.52516992398844
+    },
+    "date": {
+      "$date": "2010-06-14"
+    }
+  },
+  {
+    "nom": "Le Rossini",
+    "adresse": "Lalana Général Gabriel Ramanantsoa, Antananarivo",
+    "telephone": "0202234244",
+    "coordonnees": {
+      "long": -18.91011455974559, 
+      "lat": 47.519540241631056
+    },
+    "date": {
+      "$date": "2015-02-07"
+    }
+  },
+  {
+    "nom": "Saka Express",
+    "adresse": "Antananarivo 101",
+    "telephone": "0202433439",
+    "coordonnees": {
+      "long": -18.907231006871907, 
+      "lat": 47.523267289983096
+    },
+    "date": {
+      "$date": "2007-05-03"
+    }
+  },
+  {
+    "nom": "Le Chalet des Roses",
+    "adresse": "Antananarivo",
+    "telephone": "0202264233",
+    "coordonnees": {
+      "long": -18.90844899713846, 
+      "lat": 47.527258416807655
+    },
+    "date": {
+      "$date": "2010-05-17"
+    }
+  }
+]

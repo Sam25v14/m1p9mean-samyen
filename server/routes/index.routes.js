@@ -1,8 +1,9 @@
 var express = require("express");
 var router = express.Router();
-require("../models/user-profile");
 const User = require("../models/user");
 const userRouter = require("./user.routes");
+const commandeRouter = require("./commande.routes");
+const platRouter = require("./plat.routes");
 const auth = require("../middlewares/auth");
 const restrict = require("../middlewares/restrict");
 
@@ -17,5 +18,7 @@ router.get("/", auth, restrict({ profile: "client" }), function (req, res, next)
 });
 
 router.use("/user", userRouter);
+router.use("/commande", commandeRouter);
+router.use("/plat", platRouter);
 
 module.exports = router;

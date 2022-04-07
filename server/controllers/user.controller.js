@@ -2,7 +2,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const createHttpError = require("http-errors");
 const User = require("../models/user");
-const { resolve } = require("dns");
+// const { resolve } = require("dns");
 
 const { SALT_WORK_FACTOR, JWT_TOKEN_KEY } = process.env;
 

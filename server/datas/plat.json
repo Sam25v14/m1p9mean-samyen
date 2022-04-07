@@ -1,0 +1,8 @@
+[
+  {
+    "nom": "Plat1",
+    "prix": 1200,
+    "desc": "Plat 1",
+    "categorie": { "$oid": "624e85478c2e6107ae61cbc0" }
+  }
+]

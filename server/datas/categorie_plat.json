@@ -1,0 +1,38 @@
+[
+  {
+    "nom": "Glace et sorbet",
+    "desc": "Categorie 1"
+  },
+  {
+    "nom": "Grillades",
+    "desc": "Grillades"
+  },
+  {
+    "nom": "Boissons",
+    "desc": "Boissons"
+  },
+  {
+    "nom": "Gâteaux",
+    "desc": "Gâteaux"
+  },
+  {
+    "nom": "Crêpes",
+    "desc": "Crêpes"
+  },
+  {
+    "nom": "Boissons",
+    "desc": "Boissons"
+  },
+  {
+    "nom": "Plats malagasy",
+    "desc": "Plats malagasy"
+  },
+  {
+    "nom": "Entrées",
+    "desc": "Entrées"
+  },
+  {
+    "nom": "Soupes",
+    "desc": "Soupes"
+  }
+]

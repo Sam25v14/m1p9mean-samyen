@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
+require("../models/user-profile");
 const { SALT_WORK_FACTOR } = process.env;
 
 const UserSchema = new mongoose.Schema({

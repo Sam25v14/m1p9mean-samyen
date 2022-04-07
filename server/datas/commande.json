@@ -1,0 +1,10 @@
+[
+  {
+    "date": { "$date": "2022-04-07T17:29:00.000Z" },
+    "plats": [
+      { "plat": { "$oid": "624e85f38c2e6107ae61cbc3" }, "quantite": 1 }
+    ],
+    "client": { "$oid": "62459fbcea5aec9c47340f9e" },
+    "etat": 0
+  }
+]
