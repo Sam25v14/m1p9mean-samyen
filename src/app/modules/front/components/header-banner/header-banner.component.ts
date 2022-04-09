@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
@@ -7,12 +8,11 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 })
 export class HeaderBannerComponent implements OnInit {
 
-  constructor() { }
-  ngAfterViewInit(): void {
-
-  }
-
+  constructor(private viewportScroller: ViewportScroller) { }
   ngOnInit() {
   }
 
+  scrollTo(section: string) {
+    this.viewportScroller.scrollToAnchor(section);
+  }
 }

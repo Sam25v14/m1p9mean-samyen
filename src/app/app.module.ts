@@ -13,6 +13,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { AdminModule } from './modules/admin/admin.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FrontModule } from './modules/front/front.module';
+import { AngularSvgIconModule } from 'angular-svg-icon';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FrontModule } from './modules/front/front.module';
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    AngularSvgIconModule.forRoot(),
     FormsModule,
     AdminModule,
     FrontModule

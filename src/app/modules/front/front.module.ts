@@ -17,6 +17,9 @@ import { MainComponent } from './components/main/main.component';
 import { ModalSocialComponent } from './components/modal-social/modal-social.component';
 import { PromotionSectionComponent } from './components/promotion-section/promotion-section.component';
 import { SocialComponent } from './components/social/social.component';
+import { ChoixRestoComponent } from './components/choix-resto/choix-resto.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { AngularSvgIconModule } from 'angular-svg-icon';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,9 @@ import { SocialComponent } from './components/social/social.component';
     ListProduitComponent,
     SocialComponent,
     FooterComponent,
+    ChoixRestoComponent,
+    HomepageComponent,
   ],
-  imports: [CommonModule, FrontRoutingModule],
+  imports: [CommonModule, FrontRoutingModule, AngularSvgIconModule],
 })
 export class FrontModule {}

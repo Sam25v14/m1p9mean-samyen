@@ -4,6 +4,7 @@ const User = require("../models/user");
 const userRouter = require("./user.routes");
 const commandeRouter = require("./commande.routes");
 const platRouter = require("./plat.routes");
+const restaurantRouter = require("./restaurants.routes");
 const auth = require("../middlewares/auth");
 const restrict = require("../middlewares/restrict");
 
@@ -19,6 +20,7 @@ router.get("/", auth, restrict({ profile: "client" }), function (req, res, next)
 
 router.use("/user", userRouter);
 router.use("/commande", commandeRouter);
+router.use("/restaurant", restaurantRouter);
 router.use("/plat", platRouter);
 
 module.exports = router;

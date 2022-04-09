@@ -1,0 +1,67 @@
+// // TYPO
+// body {
+// 	font-family: 'Ubuntu', sans-serif;
+// }
+
+// // LAYOUT
+// .grid-lg {
+// 	max-width: 1068px;
+// 	padding-right: .8rem;
+// 	padding-left: .8rem;
+// }
+// .columns {
+// 	list-style: none;
+// }
+
+// ELEMENTS
+// Card
+.card {
+	margin-bottom: .4rem;
+	padding: .4rem .6rem;
+
+    .card-icon {
+		margin-right: .6rem;
+		svg {
+			vertical-align: bottom;
+		}
+	}
+	.card-text {
+		overflow: hidden;
+		width: 100%;
+		color: #333;
+	}
+	.card-title {
+		margin-bottom: 0;
+		// font-size: 1.9rem;
+		// line-height: 2.1rem;
+		display: inline-block;
+		white-space: nowrap;
+	}
+	.icon_chevron_right {
+		transition: transform .2s ease-out;
+		vertical-align: middle;
+	}
+}
+.card-horizontal {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+// card as link
+a.card {
+	// box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+	border-color: transparent;
+
+	&:hover,
+	&:focus {
+        border-radius: 20px;
+		// box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+		text-decoration: none;
+		.card-subtitle {
+			color: #db0029;
+		}
+		// .icon_chevron_right {
+		// 	transform: translateX(8px);
+		// }
+	}
+}

@@ -1,0 +1,52 @@
+<div id="choixResto" class="py-11 px-72 bg-[#F7F7F7]">
+  <h3 class="text-center text-3xl">Choisissez où faire votre commande</h3>
+  <ul class="mt-10 columns">
+    <!-- CARD 1 -->
+    <li *ngFor="let resto of restaurants" class="mb-5">
+      <a href class="bg-white hover:shadow-md shadow card card-horizontal">
+        <!-- icon -->
+        <div class="card-icon">
+          <svg
+            width="80"
+            height="80"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M63.094 33.2c1.235 0 1.975.557 1.628 1.832l-6.887 25.64c-.3 1.103-1.027 2.127-1.936 2.127H25.1c-.933 0-1.601-1.117-1.935-2.35l-6.888-25.17c-.327-1.206.424-2.08 1.627-2.08h45.19Zm-45.19 1.6c-.192 0-.122-.082-.083.058l6.888 25.17c.083.308.237.677.399.947.056.095.11.171.155.224H55.9c-.066 0-.077-.013-.057-.048l.085-.12c.152-.215.291-.513.363-.777l6.838-25.455H17.904Z"
+              fill="#E30613"
+            />
+            <path
+              d="m33.379 17.495-13 16a.8.8 0 1 0 1.242 1.009l13-16a.8.8 0 1 0-1.242-1.01Z"
+              fill="#E30613"
+            />
+            <path
+              d="M49.2 41v13a.8.8 0 0 0 1.6 0V41a.8.8 0 0 0-1.6 0Zm-9.5 0v13a.8.8 0 0 0 1.6 0V41a.8.8 0 0 0-1.6 0Zm-9.5 0v13a.8.8 0 0 0 1.6 0V41a.8.8 0 0 0-1.6 0Z"
+              fill="#333"
+            />
+            <path
+              d="m46.36 18.48 12 16a.8.8 0 0 0 1.28-.96l-12-16a.8.8 0 1 0-1.28.96Z"
+              fill="#E30613"
+            />
+          </svg>
+        </div>
+        <!-- text -->
+        <div class="card-text">
+          <h2 class="card-title text-dark text-xl">{{ resto.nom }}</h2>
+          <div class="card-subtitle">
+            {{ resto.adresse }}
+          </div>
+        </div>
+        <div class="card-text">
+            <div class="card-subtitle">
+                Passez commande directement
+            </div>
+            <h2 class="card-title text-dark text-xl">
+                <svg-icon src="assets/img/phone-call-svgrepo-com.svg" [svgStyle]="{ 'width.px':25, 'display': 'inline' }"></svg-icon>
+                {{ resto.telephone }}
+            </h2>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
