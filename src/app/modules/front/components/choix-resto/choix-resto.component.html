@@ -3,7 +3,7 @@
   <ul class="mt-10 columns">
     <!-- CARD 1 -->
     <li *ngFor="let resto of restaurants" class="mb-5">
-      <a href class="bg-white hover:shadow-md shadow card card-horizontal">
+      <a (click)="changerResto(resto)" class="bg-white hover:cursor-pointer hover:shadow-md shadow card card-horizontal">
         <!-- icon -->
         <div class="card-icon">
           <svg

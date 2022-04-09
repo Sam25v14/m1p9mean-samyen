@@ -18,8 +18,9 @@ import { ModalSocialComponent } from './components/modal-social/modal-social.com
 import { PromotionSectionComponent } from './components/promotion-section/promotion-section.component';
 import { SocialComponent } from './components/social/social.component';
 import { ChoixRestoComponent } from './components/choix-resto/choix-resto.component';
-import { HomepageComponent } from './homepage/homepage.component';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import { HomepageComponent } from './pages/homepage/homepage.component';
+import { ListePlatsComponent } from './pages/liste-plats/liste-plats.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
     FooterComponent,
     ChoixRestoComponent,
     HomepageComponent,
+    ListePlatsComponent,
   ],
   imports: [CommonModule, FrontRoutingModule, AngularSvgIconModule],
 })

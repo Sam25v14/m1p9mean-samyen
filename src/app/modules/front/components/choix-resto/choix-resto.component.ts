@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { catchError } from 'rxjs';
 import { ApiService } from 'src/app/services/api.service';
+import { ClientService } from 'src/app/services/client.service';
 
 @Component({
   selector: 'app-choix-resto',
@@ -10,7 +12,11 @@ import { ApiService } from 'src/app/services/api.service';
 export class ChoixRestoComponent implements OnInit {
   restaurants: Array<any> = [];
 
-  constructor(private apiService: ApiService) {
+  constructor(
+    private apiService: ApiService,
+    private clientService: ClientService,
+    private _router: Router
+  ) {
     apiService.baseRoute = 'restaurant';
   }
 
@@ -28,5 +34,10 @@ export class ChoixRestoComponent implements OnInit {
       .get('/all')
       .pipe(catchError((error) => this.handleError(error)))
       .subscribe((data) => this.handleSuccess(data));
+  }
+
+  changerResto(resto: any): void {
+    if (resto) this.clientService.changerResto(resto);
+    this._router.navigate(['/client/liste-plats']);
   }
 }
