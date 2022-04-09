@@ -12,6 +12,7 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { AdminModule } from './modules/admin/admin.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FrontModule } from './modules/front/front.module';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    AdminModule
+    AdminModule,
+    FrontModule
   ],
   providers: [authInterceptorProviders],
   bootstrap: [AppComponent],

@@ -3,7 +3,7 @@ var router = express.Router();
 const auth = require("../middlewares/auth");
 const Commande = require("../models/commande");
 const Controller = require("../controllers/controller");
-const { updateQuantite } = require("../controllers/commande.controller");
+const { updateQuantite, commander } = require("../controllers/commande.controller");
 
 Controller.init(Commande);
 const { create, updateOne } = Controller;
@@ -17,6 +17,14 @@ router.get("/", function (req, res, next) {
       res.json(user);
     });
 });
+
+// router.post("/commander", function (req, res, next) {
+//   commander(req.body, (err, commande) => {
+//     if(err) return next(err);
+
+//     res.json(commande);
+//   })
+// });
 
 router.post("/commander", function (req, res, next) {
   create(new Commande(req.body), (err, result) => {
