@@ -1,0 +1,2723 @@
+[
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8231f"
+    },
+    "nom": "Chicken Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 975
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82320"
+    },
+    "nom": "Steak Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 945
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82321"
+    },
+    "nom": "Carnitas Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 1005
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82322"
+    },
+    "nom": "Barbacoa Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 965
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82323"
+    },
+    "nom": "Chorizo Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 1095
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82324"
+    },
+    "nom": "Sofritas Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 945
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82325"
+    },
+    "nom": "Chicken Corn Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 650
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82326"
+    },
+    "nom": "Chicken Flour Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 700
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82327"
+    },
+    "nom": "Steak Corn Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 620
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82328"
+    },
+    "nom": "Steak Flour Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 670
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82329"
+    },
+    "nom": "Carnitas Corn Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 680
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8232a"
+    },
+    "nom": "Carnitas Flour Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 730
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8232b"
+    },
+    "nom": "Barbacoa Corn Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 640
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8232c"
+    },
+    "nom": "Barbacoa Flour Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 690
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8232d"
+    },
+    "nom": "Chorizo Corn Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 770
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8232e"
+    },
+    "nom": "Chorizo Flour Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 820
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8232f"
+    },
+    "nom": "Sofritas Corn Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 620
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82330"
+    },
+    "nom": "Sofritas Flour Tortilla Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 670
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82331"
+    },
+    "nom": "Chicken Salad",
+    "prix": 7500,
+    "calorie": 345,
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82332"
+    },
+    "nom": "Steak Salad",
+    "prix": 7500,
+    "calorie": 315,
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82333"
+    },
+    "nom": "Carnitas Salad",
+    "prix": 7500,
+    "calorie": 375,
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82334"
+    },
+    "nom": "Barbacoa Salad",
+    "prix": 7500,
+    "calorie": 335,
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82335"
+    },
+    "nom": "Chorizo Salad",
+    "prix": 7500,
+    "calorie": 465,
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82336"
+    },
+    "nom": "BBQ Chicken Flatbread",
+    "categorie": {
+      "$oid": "6252610878275e0daee82317"
+    },
+    "prix": 7500,
+    "calorie": 380
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82337"
+    },
+    "nom": "Steak and Cheddar Panini",
+    "categorie": {
+      "$oid": "6252610878275e0daee82317"
+    },
+    "prix": 7500,
+    "calorie": 940
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82338"
+    },
+    "nom": "Turkey Sandwich",
+    "categorie": {
+      "$oid": "6252610878275e0daee82317"
+    },
+    "prix": 7500,
+    "calorie": 560
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82339"
+    },
+    "nom": "Mediterranean Veggie Sandwich",
+    "categorie": {
+      "$oid": "6252610878275e0daee82317"
+    },
+    "prix": 7500,
+    "calorie": 440
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8233a"
+    },
+    "nom": "Ancient Grain Greek Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 400
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8233b"
+    },
+    "nom": "Modern Greek Salad with Quinoa",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 530
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8233c"
+    },
+    "nom": "Greek Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 400
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8233d"
+    },
+    "nom": "Seasonal Greens Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 180
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8233e"
+    },
+    "nom": "Autumn Squash Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 340
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8233f"
+    },
+    "nom": "Turkey Chili",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 260
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82340"
+    },
+    "nom": "Cream of Chicken & Wild Rice Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 260
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82341"
+    },
+    "nom": "Chicken Noodle Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 160
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82342"
+    },
+    "nom": "Baked Potato Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 330
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82343"
+    },
+    "nom": "New England Clam Chowder",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 570
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82344"
+    },
+    "nom": "Broccoli Cheddar Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 360
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82345"
+    },
+    "nom": "Creamy Tomato Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 280
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82346"
+    },
+    "nom": "French Onion Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 310
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82347"
+    },
+    "nom": "Bear Claw",
+    "prix": 7500,
+    "calorie": 540,
+    "categorie": {
+      "$oid": "6252610878275e0daee82319"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82348"
+    },
+    "nom": "Cinnamon Roll",
+    "prix": 7500,
+    "calorie": 670,
+    "categorie": {
+      "$oid": "6252610878275e0daee82319"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82349"
+    },
+    "nom": "Pecan Roll",
+    "prix": 7500,
+    "calorie": 720,
+    "categorie": {
+      "$oid": "6252610878275e0daee82319"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8234a"
+    },
+    "nom": "Cobblestone",
+    "prix": 7500,
+    "calorie": 560,
+    "categorie": {
+      "$oid": "6252610878275e0daee82319"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8234b"
+    },
+    "nom": "Blueberry Muffin",
+    "prix": 7500,
+    "calorie": 460,
+    "categorie": {
+      "$oid": "6252610878275e0daee82319"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8234c"
+    },
+    "nom": "Cranberry Orange Muffin",
+    "prix": 7500,
+    "calorie": 480,
+    "categorie": {
+      "$oid": "6252610878275e0daee82319"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8234d"
+    },
+    "nom": "Apple Crunch Muffin",
+    "prix": 7500,
+    "calorie": 450,
+    "categorie": {
+      "$oid": "6252610878275e0daee82319"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8234e"
+    },
+    "nom": "Pumpkin Muffin",
+    "prix": 7500,
+    "calorie": 580,
+    "categorie": {
+      "$oid": "6252610878275e0daee82319"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8234f"
+    },
+    "nom": "Chocolate Chip Muffie",
+    "prix": 7500,
+    "calorie": 320,
+    "categorie": {
+      "$oid": "6252610878275e0daee82319"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82350"
+    },
+    "nom": "Pumpkin Muffie",
+    "prix": 7500,
+    "calorie": 290,
+    "categorie": {
+      "$oid": "6252610878275e0daee82319"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82351"
+    },
+    "nom": "Roast Beef Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 140
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82352"
+    },
+    "nom": "Rotisserie Chicken Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82353"
+    },
+    "nom": "Turkey Breast Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 110
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82354"
+    },
+    "nom": "Veggie Delite Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 60
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82355"
+    },
+    "nom": "Beef Chili with Beans",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 360
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82356"
+    },
+    "nom": "Black Bean Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 210
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82357"
+    },
+    "nom": "Broccoli Cheddar Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82358"
+    },
+    "nom": "French Onion Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82359"
+    },
+    "nom": "Tomato Basil Soup",
+    "categorie": {
+      "$oid": "6252610878275e0daee82318"
+    },
+    "prix": 7500,
+    "calorie": 130
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8235a"
+    },
+    "nom": "Grilled Market Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 470
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8235b"
+    },
+    "nom": "Market Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 470
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8235c"
+    },
+    "nom": "Cobb Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 510
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8235d"
+    },
+    "nom": "Spicy Southwest Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 470
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8235e"
+    },
+    "nom": "Southwest Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 450
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8235f"
+    },
+    "nom": "Side Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 160
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82360"
+    },
+    "nom": "Bacon Ranch Salad and Buttermilk Crispy Chicken",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 490
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82361"
+    },
+    "nom": "Bacon Ranch Grilled Chicken Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 320
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82362"
+    },
+    "nom": "Southwest Buttermilk Crispy Chicken Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 520
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82363"
+    },
+    "nom": "Southwest Grilled Chicken Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 350
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82364"
+    },
+    "nom": "Side Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 15
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82365"
+    },
+    "nom": "Mozzarella Chicken Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 520
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82366"
+    },
+    "nom": "Taco Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 660
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82367"
+    },
+    "nom": "Mediterranean Chicken Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 480
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82368"
+    },
+    "nom": "Caesar Chicken Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 720
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82369"
+    },
+    "nom": "Garden Side Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 110
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8236a"
+    },
+    "nom": "Side Salad",
+    "categorie": {
+      "$oid": "6252610878275e0daee82316"
+    },
+    "prix": 7500,
+    "calorie": 110
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8236b"
+    },
+    "nom": "7 Layer Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 440
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8236c"
+    },
+    "nom": "Beefy 5 Layer Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 500
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8236d"
+    },
+    "nom": "Chicken Burrito Supreme",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 380
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8236e"
+    },
+    "nom": "Chili Cheese Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 370
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8236f"
+    },
+    "nom": "Combo Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 450
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82370"
+    },
+    "nom": "Shredded Chicken Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 420
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82371"
+    },
+    "nom": "Beef Smothered Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 700
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82372"
+    },
+    "nom": "Shredded Chicken Smothered Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 670
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82373"
+    },
+    "nom": "Steak Smothered Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 660
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82374"
+    },
+    "nom": "Beef XXL Grilled Stuft Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 870
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82375"
+    },
+    "nom": "Chicken XXL Grilled Stuft Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 830
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82376"
+    },
+    "nom": "Spicy Potato Soft Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 230
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82377"
+    },
+    "nom": "Fresco Bean Burrito",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 350
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82378"
+    },
+    "nom": "Fresco Chicken Burrito Supreme",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 340
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee82379"
+    },
+    "nom": "Fresco Steak Burrito Supreme",
+    "categorie": {
+      "$oid": "6252610878275e0daee82314"
+    },
+    "prix": 7500,
+    "calorie": 340
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8237a"
+    },
+    "nom": "Beef Fresco Crunchy Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 140
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8237b"
+    },
+    "nom": "Beef Fresco Soft Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 160
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8237c"
+    },
+    "nom": "Shredded Chicken Fresco Soft Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526c4278275e0daee8237d"
+    },
+    "nom": "Steak Fresco Soft Taco",
+    "categorie": {
+      "$oid": "6252610878275e0daee82315"
+    },
+    "prix": 7500,
+    "calorie": 140
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8237e"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Water",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8237f"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Water",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82380"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Water",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82381"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Glass of Water",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82382"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Soda",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82383"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Soda",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82384"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Soda",
+    "calorie": 410
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82385"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Coke",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82386"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Coke",
+    "calorie": 250
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82387"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Regular Coke",
+    "calorie": 250
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82388"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Coke",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82389"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Coke",
+    "calorie": 410
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8238a"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Coca-Cola",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8238b"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Coca Cola",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8238c"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Pepsi",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8238d"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Pepsi",
+    "calorie": 250
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8238e"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Pepsi",
+    "calorie": 300
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8238f"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Pepsi",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82390"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Sprite",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82391"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Sprite",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82392"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Diet Sprite",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82393"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Sprite Zero",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82394"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Sprite",
+    "calorie": 250
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82395"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Sprite",
+    "calorie": 410
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82396"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Grape Fanta",
+    "calorie": 300
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82397"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Grape Fanta",
+    "calorie": 300
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82398"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Grape Fanta",
+    "calorie": 180
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82399"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Grape Fanta",
+    "calorie": 480
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8239a"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Orange Fanta",
+    "calorie": 160
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8239b"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Orange Fanta",
+    "calorie": 270
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8239c"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Fanta",
+    "calorie": 270
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8239d"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Orange Fanta",
+    "calorie": 270
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8239e"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Orange Crush",
+    "calorie": 160
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8239f"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Crush",
+    "calorie": 320
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823a0"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Hi-C",
+    "calorie": 160
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823a1"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Hi-C",
+    "calorie": 320
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823a2"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Diet Mountain Dew",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823a3"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Mountain Dew",
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823a4"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Mtn Dew",
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823a5"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Mt Dew",
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823a6"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Mt Dew",
+    "calorie": 410
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823a7"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Mountain Dew",
+    "calorie": 410
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823a8"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Mtn Dew Baja Blast",
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823a9"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Baja Blast",
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823aa"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Blast",
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ab"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Mountain Dew Baja Blast",
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ac"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Baja Blast Mountain Dew",
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ad"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Baja Blast Mountain Dew",
+    "calorie": 410
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ae"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Powerade",
+    "calorie": 90
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823af"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Powerade",
+    "calorie": 120
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823b0"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Powerade",
+    "calorie": 120
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823b1"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Powerade",
+    "calorie": 170
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823b2"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Fruit Punch",
+    "calorie": 260
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823b3"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Fruit Punch",
+    "calorie": 200
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823b4"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Fruit Punch",
+    "calorie": 260
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823b5"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Fruit Punch",
+    "calorie": 390
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823b6"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Dr. Pepper",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823b7"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Dr.Pepper",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823b8"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Dr Pepper",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823b9"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Dr Pepper",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ba"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Dr Pepper",
+    "calorie": 200
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823bb"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Dr. Pepper",
+    "calorie": 200
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823bc"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Dr Pepper",
+    "calorie": 290
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823bd"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Diet Dr Pepper",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823be"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Diet Dr Pepper",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823bf"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Root Beer",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823c0"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Root Beer",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823c1"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Root Beer",
+    "calorie": 250
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823c2"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Diet Lemonade",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823c3"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Diet Lemonade",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823c4"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Pink Lemonade",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823c5"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Lemonade",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823c6"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Lemonade",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823c7"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Lemonade",
+    "calorie": 250
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823c8"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Lemonade",
+    "calorie": 300
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823c9"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Minute Maid Lemonade",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ca"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Ice Tea",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823cb"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Iced Tea",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823cc"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Iced Tea",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823cd"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Tea",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ce"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Tea",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823cf"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Tea",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823d0"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Tea",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823d1"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Unsweet Tea",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823d2"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Sweet Tea",
+    "calorie": 280
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823d3"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Sweet Tea",
+    "calorie": 280
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823d4"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Vitamin Water",
+    "calorie": 120
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823d5"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Diet Soda",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823d6"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Diet Coke",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823d7"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Diet Coke",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823d8"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Diet Coke",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823d9"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Coke Zero",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823da"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Diet Pepsi",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823db"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Milk",
+    "calorie": 100
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823dc"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Chocolate Milk",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823dd"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "McCafe Chocolate Shake",
+    "calorie": 530
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823de"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Vanilla Shake",
+    "calorie": 350
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823df"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Frosty",
+    "calorie": 393
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823e0"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Frosty",
+    "calorie": 393
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823e1"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Frosty",
+    "calorie": 299
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823e2"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Cookie Butter Milkshake",
+    "calorie": 540
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823e3"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Cookie Butter Milkshake",
+    "calorie": 540
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823e4"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Cookie Butter Milkshake",
+    "calorie": 750
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823e5"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Chocolate Milkshake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823e6"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Chocolate Milk Shake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823e7"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Chocolate Shake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823e8"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Vanilla Milkshake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823e9"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Vanilla Milk Shake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ea"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Vanilla Shake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823eb"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Strawberry Milkshake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ec"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Strawberry Milk Shake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ed"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Strawberry Shake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ee"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Milkshake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ef"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Milkshake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823f0"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Milk Shake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823f1"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Shake",
+    "calorie": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823f2"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Milkshake",
+    "calorie": 530
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823f3"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Mango Pineapple Smoothie",
+    "calorie": 250
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823f4"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Mango Pineapple Smoothie",
+    "calorie": 200
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823f5"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Mango Pineapple Smoothie",
+    "calorie": 250
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823f6"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Mango Pineapple Smoothie",
+    "calorie": 340
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823f7"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Strawberry Banana Smoothie",
+    "calorie": 240
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823f8"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Strawberry Banana Smoothie",
+    "calorie": 190
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823f9"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Strawberry Banana Smoothie",
+    "calorie": 240
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823fa"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Strawberry Banana Smoothie",
+    "calorie": 330
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823fb"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "McFlurry",
+    "calorie": 370
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823fc"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Oreo McFlurry",
+    "calorie": 510
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823fd"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "M and M McFlurry",
+    "calorie": 630
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823fe"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Orange Juice",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee823ff"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Orange Juice",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82400"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Apple Juice",
+    "calorie": 120
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82401"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Orange Juice",
+    "calorie": 190
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82402"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Coffee",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82403"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Cup of Black Coffee",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82404"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Cup of Coffee",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82405"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Dark Roast Coffee",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82406"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Hazelnut Coffee",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82407"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Light Roast Coffee",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82408"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Coffee",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82409"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Coffee",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8240a"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Coffee",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8240b"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Decaf Coffee",
+    "calorie": 0
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8240c"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Gatorade",
+    "calorie": 150
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8240d"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Frappe",
+    "calorie": 420
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8240e"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Frappe",
+    "calorie": 420
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee8240f"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Frappe",
+    "calorie": 550
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82410"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Frappe",
+    "calorie": 680
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82411"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Mocha Frappe",
+    "calorie": 420
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82412"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Mocha Frappe",
+    "calorie": 550
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82413"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Mocha Frappe",
+    "calorie": 680
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82414"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Small Caramel Frappe",
+    "calorie": 420
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82415"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Medium Caramel Frappe",
+    "calorie": 550
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82416"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Large Caramel Frappe",
+    "calorie": 680
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82417"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Mocha Frappe",
+    "calorie": 420
+  },
+  {
+    "_id": {
+      "$oid": "62526cb978275e0daee82418"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231a"
+    },
+    "prix": 3500, "nom": "Caramel Frappe",
+    "calorie": 420
+  },
+  {
+    "_id": {
+      "$oid": "62526cc478275e0daee82419"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231b"
+    },
+    "prix": 3500, "nom": "BBQ Chicken and Bacon",
+    "calorie": 230
+  },
+  {
+    "_id": {
+      "$oid": "62526cc478275e0daee8241a"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231b"
+    },
+    "prix": 3500, "nom": "Cheese",
+    "calorie": 210
+  },
+  {
+    "_id": {
+      "$oid": "62526cc478275e0daee8241b"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231b"
+    },
+    "prix": 3500, "nom": "Pepperoni",
+    "calorie": 220
+  },
+  {
+    "_id": {
+      "$oid": "62526cc478275e0daee8241c"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231b"
+    },
+    "prix": 3500, "nom": "Pepperoni and Sausage",
+    "calorie": 260
+  },
+  {
+    "_id": {
+      "$oid": "62526cc478275e0daee8241d"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231b"
+    },
+    "prix": 5000, "nom": "Sausage",
+    "calorie": 240
+  },
+  {
+    "_id": {
+      "$oid": "62526cc478275e0daee8241e"
+    },
+    "categorie": {
+      "$oid": "6252610878275e0daee8231b"
+    },
+    "prix": 5000, "nom": "Garden Fresh",
+    "calorie": 220
+  },
+  {
+    "_id": {
+      "$oid": "62526cd078275e0daee8241f"
+    },
+    "nom": "Original Recipe Chicken",
+    "categorie": {
+      "$oid": "6252610878275e0daee8231c"
+    },
+    "calorie": 390,
+    "prix": 1190
+  },
+  {
+    "_id": {
+      "$oid": "62526cd078275e0daee82420"
+    },
+    "nom": "Extra Crispy Chicken",
+    "categorie": {
+      "$oid": "6252610878275e0daee8231c"
+    },
+    "calorie": 530,
+    "prix": 1150
+  },
+  {
+    "_id": {
+      "$oid": "62526cd078275e0daee82421"
+    },
+    "nom": "Kentucky Grilled Chicken",
+    "categorie": {
+      "$oid": "6252610878275e0daee8231c"
+    },
+    "calorie": 210,
+    "prix": 710
+  },
+  {
+    "_id": {
+      "$oid": "62526cd078275e0daee82422"
+    },
+    "nom": "Spicy Crispy Chicken",
+    "categorie": {
+      "$oid": "6252610878275e0daee8231c"
+    },
+    "calorie": 350,
+    "prix": 1100
+  },
+  {
+    "_id": {
+      "$oid": "62526cd078275e0daee82423"
+    },
+    "nom": "Mild Recipe Chicken",
+    "categorie": {
+      "$oid": "6252610878275e0daee8231c"
+    },
+    "calorie": 380,
+    "prix": 1230
+  },
+  {
+    "_id": {
+      "$oid": "62526cd078275e0daee82424"
+    },
+    "nom": "Spicy Recipe Chicken",
+    "categorie": {
+      "$oid": "6252610878275e0daee8231c"
+    },
+    "calorie": 380,
+    "prix": 1230
+  }
+]

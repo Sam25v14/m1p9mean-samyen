@@ -9,6 +9,7 @@ const { create, updateOne } = Controller;
 
 router.get("/all", function (req, res, next) {
     Restaurant.find()
+    // .populate('plats')
     .exec((err, user) => {
       if (err) return next(err);
 

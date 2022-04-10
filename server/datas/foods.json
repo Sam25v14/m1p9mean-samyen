@@ -1,0 +1,623 @@
+[
+  {
+    "nom": "Chicken Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 975
+  },
+  {
+    "nom": "Steak Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 945
+  },
+  {
+    "nom": "Carnitas Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 1005
+  },
+  {
+    "nom": "Barbacoa Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 965
+  },
+  {
+    "nom": "Chorizo Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 1095
+  },
+  {
+    "nom": "Sofritas Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 945
+  },
+  {
+    "nom": "Chicken Corn Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 650
+  },
+  {
+    "nom": "Chicken Flour Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 700
+  },
+  {
+    "nom": "Steak Corn Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 620
+  },
+  {
+    "nom": "Steak Flour Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 670
+  },
+  {
+    "nom": "Carnitas Corn Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 680
+  },
+  {
+    "nom": "Carnitas Flour Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 730
+  },
+  {
+    "nom": "Barbacoa Corn Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 640
+  },
+  {
+    "nom": "Barbacoa Flour Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 690
+  },
+  {
+    "nom": "Chorizo Corn Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 770
+  },
+  {
+    "nom": "Chorizo Flour Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 820
+  },
+  {
+    "nom": "Sofritas Corn Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 620
+  },
+  {
+    "nom": "Sofritas Flour Tortilla Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 670
+  },
+  {
+    "nom": "Chicken Salad",
+    "prix": 7500,
+    "calorie": 345,
+    "categorie": { "$oid": "6252610878275e0daee82316" }
+  },
+  {
+    "nom": "Steak Salad",
+    "prix": 7500,
+    "calorie": 315,
+    "categorie": { "$oid": "6252610878275e0daee82316" }
+  },
+  {
+    "nom": "Carnitas Salad",
+    "prix": 7500,
+    "calorie": 375,
+    "categorie": { "$oid": "6252610878275e0daee82316" }
+  },
+  {
+    "nom": "Barbacoa Salad",
+    "prix": 7500,
+    "calorie": 335,
+    "categorie": { "$oid": "6252610878275e0daee82316" }
+  },
+  {
+    "nom": "Chorizo Salad",
+    "prix": 7500,
+    "calorie": 465,
+    "categorie": { "$oid": "6252610878275e0daee82316" }
+  },
+
+  {
+    "nom": "BBQ Chicken Flatbread",
+    "categorie": { "$oid": "6252610878275e0daee82317" },
+    "prix": 7500,
+    "calorie": 380,
+    "carbs": 41
+  },
+  {
+    "nom": "Steak and Cheddar Panini",
+    "categorie": { "$oid": "6252610878275e0daee82317" },
+    "prix": 7500,
+    "calorie": 940,
+    "carbs": 79
+  },
+  {
+    "nom": "Turkey Sandwich",
+    "categorie": { "$oid": "6252610878275e0daee82317" },
+    "prix": 7500,
+    "calorie": 560,
+    "correctedTerm": "Turkey Breast Sandwich",
+    "carbs": 65
+  },
+  {
+    "nom": "Mediterranean Veggie Sandwich",
+    "categorie": { "$oid": "6252610878275e0daee82317" },
+    "prix": 7500,
+    "calorie": 440,
+    "carbs": 65
+  },
+  {
+    "nom": "Ancient Grain Greek Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 400,
+    "carbs": 38
+  },
+  {
+    "nom": "Modern Greek Salad with Quinoa",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 530,
+    "carbs": 29
+  },
+  {
+    "nom": "Greek Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 400,
+    "carbs": 13
+  },
+  {
+    "nom": "Seasonal Greens Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 180,
+    "carbs": 20
+  },
+  {
+    "nom": "Autumn Squash Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 340,
+    "correctedTerm": "Bowl of Vegetarian Autumn Squash Soup",
+    "carbs": 44
+  },
+  {
+    "nom": "Turkey Chili",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 260,
+    "correctedTerm": "Bowl of Turkey Chili",
+    "carbs": 32
+  },
+  {
+    "nom": "Cream of Chicken & Wild Rice Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 260,
+    "correctedTerm": "Bowl of Cream of Chicken & Wild Rice Soup",
+    "carbs": 27
+  },
+  {
+    "nom": "Chicken Noodle Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 160,
+    "correctedTerm": "Bowl of Chicken Noodle Soup",
+    "carbs": 19
+  },
+  {
+    "nom": "Baked Potato Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 330,
+    "carbs": 33
+  },
+  {
+    "nom": "New England Clam Chowder",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 570,
+    "carbs": 42
+  },
+  {
+    "nom": "Broccoli Cheddar Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 360,
+    "carbs": 30
+  },
+  {
+    "nom": "Creamy Tomato Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 280,
+    "carbs": 36
+  },
+  {
+    "nom": "French Onion Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 310,
+    "correctedTerm": "Bowl of French Onion Soup",
+    "carbs": 35
+  },
+  {
+    "nom": "Bear Claw",
+    "prix": 7500,
+    "calorie": 540,
+    "categorie": { "$oid": "6252610878275e0daee82319" },
+    "carbs": 59
+  },
+  {
+    "nom": "Cinnamon Roll",
+    "prix": 7500,
+    "calorie": 670,
+    "categorie": { "$oid": "6252610878275e0daee82319" },
+    "carbs": 100
+  },
+  {
+    "nom": "Pecan Roll",
+    "prix": 7500,
+    "calorie": 720,
+    "categorie": { "$oid": "6252610878275e0daee82319" },
+    "carbs": 69
+  },
+  {
+    "nom": "Cobblestone",
+    "prix": 7500,
+    "calorie": 560,
+    "categorie": { "$oid": "6252610878275e0daee82319" },
+    "carbs": 102
+  },
+  {
+    "nom": "Blueberry Muffin",
+    "prix": 7500,
+    "calorie": 460,
+    "categorie": { "$oid": "6252610878275e0daee82319" },
+    "carbs": 69
+  },
+  {
+    "nom": "Cranberry Orange Muffin",
+    "prix": 7500,
+    "calorie": 480,
+    "categorie": { "$oid": "6252610878275e0daee82319" },
+    "carbs": 71
+  },
+  {
+    "nom": "Apple Crunch Muffin",
+    "prix": 7500,
+    "calorie": 450,
+    "categorie": { "$oid": "6252610878275e0daee82319" },
+    "carbs": 80
+  },
+  {
+    "nom": "Pumpkin Muffin",
+    "prix": 7500,
+    "calorie": 580,
+    "categorie": { "$oid": "6252610878275e0daee82319" },
+    "carbs": 90
+  },
+  {
+    "nom": "Chocolate Chip Muffie",
+    "prix": 7500,
+    "calorie": 320,
+    "categorie": { "$oid": "6252610878275e0daee82319" },
+    "carbs": 46
+  },
+  {
+    "nom": "Pumpkin Muffie",
+    "prix": 7500,
+    "calorie": 290,
+    "categorie": { "$oid": "6252610878275e0daee82319" },
+    "carbs": 90
+  },
+
+  {
+    "nom": "Roast Beef Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 140
+  },
+  {
+    "nom": "Rotisserie Chicken Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 170
+  },
+  {
+    "nom": "Turkey Breast Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 110
+  },
+  {
+    "nom": "Veggie Delite Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 60
+  },
+  {
+    "nom": "Beef Chili with Beans",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 360,
+    "sideItem": true
+  },
+  {
+    "nom": "Black Bean Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 210,
+    "sideItem": true
+  },
+  {
+    "nom": "Broccoli Cheddar Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 170,
+    "sideItem": true
+  },
+  {
+    "nom": "French Onion Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 150,
+    "sideItem": true
+  },
+  {
+    "nom": "Tomato Basil Soup",
+    "categorie": { "$oid": "6252610878275e0daee82318" },
+    "prix": 7500,
+    "calorie": 130,
+    "sideItem": true
+  },
+
+  {
+    "nom": "Grilled Market Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 470
+  },
+  {
+    "nom": "Market Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 470
+  },
+  {
+    "nom": "Cobb Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 510
+  },
+  {
+    "nom": "Spicy Southwest Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 470
+  },
+  {
+    "nom": "Southwest Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 450
+  },
+  {
+    "nom": "Side Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 160,
+    "sideItem": true
+  },
+
+  {
+    "nom": "Bacon Ranch Salad and Buttermilk Crispy Chicken",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 490,
+    "dressingItem": true
+  },
+  {
+    "nom": "Bacon Ranch Grilled Chicken Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 320
+  },
+  {
+    "nom": "Southwest Buttermilk Crispy Chicken Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 520
+  },
+  {
+    "nom": "Southwest Grilled Chicken Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 350
+  },
+  {
+    "nom": "Side Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 15
+  },
+
+  {
+    "nom": "Mozzarella Chicken Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 520,
+    "sideItem": true
+  },
+  {
+    "nom": "Taco Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 660,
+    "sideItem": true
+  },
+  {
+    "nom": "Mediterranean Chicken Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 480,
+    "sideItem": true
+  },
+  {
+    "nom": "Caesar Chicken Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 720,
+    "sideItem": true
+  },
+  {
+    "nom": "Garden Side Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 110
+  },
+  {
+    "nom": "Side Salad",
+    "categorie": { "$oid": "6252610878275e0daee82316" },
+    "prix": 7500,
+    "calorie": 110,
+    "correctedTerm": "Garden Side Salad"
+  },
+
+  {
+    "nom": "7 Layer Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 440
+  },
+  {
+    "nom": "Beefy 5 Layer Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 500
+  },
+  {
+    "nom": "Chicken Burrito Supreme",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 380
+  },
+  {
+    "nom": "Chili Cheese Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 370
+  },
+  {
+    "nom": "Combo Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 450
+  },
+  {
+    "nom": "Shredded Chicken Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 420
+  },
+  {
+    "nom": "Beef Smothered Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 700
+  },
+  {
+    "nom": "Shredded Chicken Smothered Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 670
+  },
+  {
+    "nom": "Steak Smothered Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 660
+  },
+  {
+    "nom": "Beef XXL Grilled Stuft Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 870
+  },
+  {
+    "nom": "Chicken XXL Grilled Stuft Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 830
+  },
+  {
+    "nom": "Spicy Potato Soft Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 230
+  },
+  {
+    "nom": "Fresco Bean Burrito",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 350
+  },
+  {
+    "nom": "Fresco Chicken Burrito Supreme",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 340
+  },
+  {
+    "nom": "Fresco Steak Burrito Supreme",
+    "categorie": { "$oid": "6252610878275e0daee82314" },
+    "prix": 7500,
+    "calorie": 340
+  },
+  {
+    "nom": "Beef Fresco Crunchy Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 140
+  },
+  {
+    "nom": "Beef Fresco Soft Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 160
+  },
+  {
+    "nom": "Shredded Chicken Fresco Soft Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 150
+  },
+  {
+    "nom": "Steak Fresco Soft Taco",
+    "categorie": { "$oid": "6252610878275e0daee82315" },
+    "prix": 7500,
+    "calorie": 140
+  }
+]

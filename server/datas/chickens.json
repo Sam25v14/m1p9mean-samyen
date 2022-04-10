@@ -1,0 +1,39 @@
+[
+  {
+    "nom": "Original Recipe Chicken",
+    "categorie": { "$oid": "6252610878275e0daee8231c" },
+    "calorie": 390,
+    "prix": 1190
+  },
+  {
+    "nom": "Extra Crispy Chicken",
+    "categorie": { "$oid": "6252610878275e0daee8231c" },
+    "calorie": 530,
+    "prix": 1150
+  },
+  {
+    "nom": "Kentucky Grilled Chicken",
+    "categorie": { "$oid": "6252610878275e0daee8231c" },
+    "calorie": 210,
+    "prix": 710
+  },
+  {
+    "nom": "Spicy Crispy Chicken",
+    "categorie": { "$oid": "6252610878275e0daee8231c" },
+    "calorie": 350,
+    "prix": 1100
+  },
+
+  {
+    "nom": "Mild Recipe Chicken",
+    "categorie": { "$oid": "6252610878275e0daee8231c" },
+    "calorie": 380,
+    "prix": 1230
+  },
+  {
+    "nom": "Spicy Recipe Chicken",
+    "categorie": { "$oid": "6252610878275e0daee8231c" },
+    "calorie": 380,
+    "prix": 1230
+  }
+]

@@ -1,38 +1,47 @@
 [
   {
-    "nom": "Glace et sorbet",
-    "desc": "Categorie 1"
+    "_id": { "$oid": "6252610878275e0daee82314" },
+    "nom": "Burrito",
+    "desc": "Burrito"
   },
   {
-    "nom": "Grillades",
-    "desc": "Grillades"
+    "_id": { "$oid": "6252610878275e0daee82315" },
+    "nom": "Taco",
+    "desc": "Taco"
   },
   {
-    "nom": "Boissons",
-    "desc": "Boissons"
+    "_id": { "$oid": "6252610878275e0daee82316" },
+    "nom": "Salad",
+    "desc": "Salad"
   },
   {
-    "nom": "Gâteaux",
-    "desc": "Gâteaux"
+    "_id": { "$oid": "6252610878275e0daee82317" },
+    "nom": "Sandwich",
+    "desc": "Sandwich"
   },
   {
-    "nom": "Crêpes",
-    "desc": "Crêpes"
+    "_id": { "$oid": "6252610878275e0daee82318" },
+    "nom": "Soup",
+    "desc": "Soup"
   },
   {
-    "nom": "Boissons",
-    "desc": "Boissons"
+    "_id": { "$oid": "6252610878275e0daee82319" },
+    "nom": "Pastry",
+    "desc": "Pastry"
   },
   {
-    "nom": "Plats malagasy",
-    "desc": "Plats malagasy"
+    "_id": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Drinks",
+    "desc": "Drinks"
   },
   {
-    "nom": "Entrées",
-    "desc": "Entrées"
+    "_id": { "$oid": "6252610878275e0daee8231b" },
+    "nom": "Pizza",
+    "desc": "Pizza"
   },
   {
-    "nom": "Soupes",
-    "desc": "Soupes"
+    "_id": { "$oid": "6252610878275e0daee8231c" },
+    "nom": "Chicken",
+    "desc": "Chicken"
   }
 ]

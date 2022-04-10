@@ -1,0 +1,777 @@
+[
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Water",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Water",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Water",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Glass of Water",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Soda",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Soda",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Soda",
+    "calorie": 410
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Coke",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Coke",
+    "calorie": 250
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Regular Coke",
+    "calorie": 250
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Coke",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Coke",
+    "calorie": 410
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Coca-Cola",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Coca Cola",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Pepsi",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Pepsi",
+    "calorie": 250
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Pepsi",
+    "calorie": 300
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Pepsi",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Sprite",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Sprite",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Diet Sprite",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Sprite Zero",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Sprite",
+    "calorie": 250
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Sprite",
+    "calorie": 410
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Grape Fanta",
+    "calorie": 300
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Grape Fanta",
+    "calorie": 300
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Grape Fanta",
+    "calorie": 180
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Grape Fanta",
+    "calorie": 480
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Orange Fanta",
+    "calorie": 160
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Orange Fanta",
+    "calorie": 270
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Fanta",
+    "calorie": 270
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Orange Fanta",
+    "calorie": 270
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Orange Crush",
+    "calorie": 160
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Crush",
+    "calorie": 320
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Hi-C",
+    "calorie": 160
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Hi-C",
+    "calorie": 320
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Diet Mountain Dew",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Mountain Dew",
+    "calorie": 170
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Mtn Dew",
+    "calorie": 170
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Mt Dew",
+    "calorie": 170
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Mt Dew",
+    "calorie": 410
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Mountain Dew",
+    "calorie": 410
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Mtn Dew Baja Blast",
+    "calorie": 170
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Baja Blast",
+    "calorie": 170
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Blast",
+    "calorie": 170
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Mountain Dew Baja Blast",
+    "calorie": 170
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Baja Blast Mountain Dew",
+    "calorie": 170
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Baja Blast Mountain Dew",
+    "calorie": 410
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Powerade",
+    "calorie": 90
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Powerade",
+    "calorie": 120
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Powerade",
+    "calorie": 120
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Powerade",
+    "calorie": 170
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Fruit Punch",
+    "calorie": 260
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Fruit Punch",
+    "calorie": 200
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Fruit Punch",
+    "calorie": 260
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Fruit Punch",
+    "calorie": 390
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Dr. Pepper",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Dr.Pepper",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Dr Pepper",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Dr Pepper",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Dr Pepper",
+    "calorie": 200
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Dr. Pepper",
+    "calorie": 200
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Dr Pepper",
+    "calorie": 290
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Diet Dr Pepper",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Diet Dr Pepper",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Root Beer",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Root Beer",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Root Beer",
+    "calorie": 250
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Diet Lemonade",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Diet Lemonade",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Pink Lemonade",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Lemonade",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Lemonade",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Lemonade",
+    "calorie": 250
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Lemonade",
+    "calorie": 300
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Minute Maid Lemonade",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Ice Tea",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Iced Tea",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Iced Tea",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Tea",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Tea",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Tea",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Tea",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Unsweet Tea",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Sweet Tea",
+    "calorie": 280
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Sweet Tea",
+    "calorie": 280
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Vitamin Water",
+    "calorie": 120
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Diet Soda",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Diet Coke",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Diet Coke",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Diet Coke",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Coke Zero",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Diet Pepsi",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Milk",
+    "calorie": 100
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Chocolate Milk",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "McCafe Chocolate Shake",
+    "calorie": 530
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Vanilla Shake",
+    "calorie": 350
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Frosty",
+    "calorie": 393
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Frosty",
+    "calorie": 393
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Frosty",
+    "calorie": 299
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Cookie Butter Milkshake",
+    "calorie": 540
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Cookie Butter Milkshake",
+    "calorie": 540
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Cookie Butter Milkshake",
+    "calorie": 750
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Chocolate Milkshake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Chocolate Milk Shake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Chocolate Shake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Vanilla Milkshake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Vanilla Milk Shake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Vanilla Shake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Strawberry Milkshake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Strawberry Milk Shake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Strawberry Shake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Milkshake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Milkshake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Milk Shake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Shake",
+    "calorie": 710
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Milkshake",
+    "calorie": 530
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Mango Pineapple Smoothie",
+    "calorie": 250
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Mango Pineapple Smoothie",
+    "calorie": 200
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Mango Pineapple Smoothie",
+    "calorie": 250
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Mango Pineapple Smoothie",
+    "calorie": 340
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Strawberry Banana Smoothie",
+    "calorie": 240
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Strawberry Banana Smoothie",
+    "calorie": 190
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Strawberry Banana Smoothie",
+    "calorie": 240
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Strawberry Banana Smoothie",
+    "calorie": 330
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "McFlurry",
+    "calorie": 370
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Oreo McFlurry",
+    "calorie": 510
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "M and M McFlurry",
+    "calorie": 630
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Orange Juice",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Orange Juice",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Apple Juice",
+    "calorie": 120
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Orange Juice",
+    "calorie": 190
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Coffee",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Cup of Black Coffee",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Cup of Coffee",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Dark Roast Coffee",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Hazelnut Coffee",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Light Roast Coffee",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Coffee",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Coffee",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Coffee",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Decaf Coffee",
+    "calorie": 0
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Gatorade",
+    "calorie": 150
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Frappe",
+    "calorie": 420
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Frappe",
+    "calorie": 420
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Frappe",
+    "calorie": 550
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Frappe",
+    "calorie": 680
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Mocha Frappe",
+    "calorie": 420
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Mocha Frappe",
+    "calorie": 550
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Mocha Frappe",
+    "calorie": 680
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Small Caramel Frappe",
+    "calorie": 420
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Medium Caramel Frappe",
+    "calorie": 550
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Large Caramel Frappe",
+    "calorie": 680
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Mocha Frappe",
+    "calorie": 420
+  },
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231a" },
+    "nom": "Caramel Frappe",
+    "calorie": 420
+  }
+]

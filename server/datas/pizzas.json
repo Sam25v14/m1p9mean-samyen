@@ -1,0 +1,37 @@
+[
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231b" },
+    "nom": "BBQ Chicken and Bacon",
+    "calorie": 230
+  },
+
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231b" },
+    "nom": "Cheese",
+    "calorie": 210
+  },
+
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231b" },
+    "nom": "Pepperoni",
+    "calorie": 220
+  },
+
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231b" },
+    "nom": "Pepperoni and Sausage",
+    "calorie": 260
+  },
+
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231b" },
+    "nom": "Sausage",
+    "calorie": 240
+  },
+
+  {
+    "categorie": { "$oid": "6252610878275e0daee8231b" },
+    "nom": "Garden Fresh",
+    "calorie": 220
+  }
+]
