@@ -11,8 +11,8 @@ import { UserService } from 'src/app/services/user.service';
 })
 export class LoginComponent implements OnInit {
   user: any = {
-    login: null,
-    password: null,
+    login: 'mario.safidy',
+    password: 'testing123+',
   };
 
   formErrors: any = {};
