@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private viewportScroller: ViewportScroller) { }
 
   ngOnInit(): void {
+    console.log(window.location.hash);
+    // if(window.location.hash) this.scrollTo(window.location.hash.substring(1));
   } 
+
+  scrollTo(section: string) {
+    this.viewportScroller.scrollToAnchor(section);
+  }
 }

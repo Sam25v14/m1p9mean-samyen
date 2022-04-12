@@ -17,7 +17,8 @@ module.exports = {
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
-      rougemate: '#ca0a19e3'
+      rougemate: '#ca0a19e3',
+      grayBg: '#F7F7F7',
     },
     extend: {
       animation: {
