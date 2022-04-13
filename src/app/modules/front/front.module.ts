@@ -21,6 +21,10 @@ import { ChoixRestoComponent } from './components/choix-resto/choix-resto.compon
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { ListePlatsComponent } from './pages/liste-plats/liste-plats.component';
+import { SideFilterComponent } from './components/side-filter/side-filter.component';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { PanierFixeComponent } from './components/panier-fixe/panier-fixe.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,15 @@ import { ListePlatsComponent } from './pages/liste-plats/liste-plats.component';
     ChoixRestoComponent,
     HomepageComponent,
     ListePlatsComponent,
+    SideFilterComponent,
+    PanierFixeComponent,
   ],
-  imports: [CommonModule, FrontRoutingModule, AngularSvgIconModule],
+  imports: [
+    CommonModule,
+    FrontRoutingModule,
+    DragDropModule,
+    InfiniteScrollModule,
+    AngularSvgIconModule,
+  ],
 })
 export class FrontModule {}

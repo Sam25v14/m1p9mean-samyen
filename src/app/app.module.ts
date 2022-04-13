@@ -7,13 +7,18 @@ import { AppComponent } from './app.component';
 // import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { authInterceptorProviders } from './helpers/auth.interceptor';
-import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {
+  FaIconLibrary,
+  FontAwesomeModule,
+} from '@fortawesome/angular-fontawesome';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { AdminModule } from './modules/admin/admin.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FrontModule } from './modules/front/front.module';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -30,10 +35,14 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
     BrowserAnimationsModule,
     AngularSvgIconModule.forRoot(),
     FormsModule,
+    DragDropModule,
+    InfiniteScrollModule,
     AdminModule,
-    FrontModule
+    FrontModule,
   ],
-  providers: [authInterceptorProviders],
+  providers: [
+    authInterceptorProviders,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {

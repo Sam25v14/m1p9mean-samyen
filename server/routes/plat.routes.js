@@ -7,15 +7,15 @@ const Controller = require("../controllers/controller");
 Controller.init(Plat);
 const { create, updateOne } = Controller;
 
-// router.get("/", function (req, res, next) {
-//     Commande.find()
-//     .populate("plats.plat")
-//     .exec((err, user) => {
-//       if (err) return next(err);
+router.get("/", function (req, res, next) {
+    Plat.find()
+    .populate("categorie")
+    .exec((err, plats) => {
+      if (err) return next(err);
 
-//       res.json(user);
-//     });
-// });
+      res.json(plats);
+    });
+});
 
 router.post("/add", function (req, res, next) {
     create(new Plat(req.body), (err, result) => {
