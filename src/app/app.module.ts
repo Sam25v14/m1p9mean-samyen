@@ -18,7 +18,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FrontModule } from './modules/front/front.module';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
-import {DragDropModule} from '@angular/cdk/drag-drop';
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { environment } from 'src/environments/environment';
+import { ImagekitioAngularModule } from 'imagekitio-angular';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,11 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ImagekitioAngularModule.forRoot({
+      publicKey: environment.publicKey,
+      urlEndpoint: environment.urlEndpoint,
+      authenticationEndpoint: environment.authenticationEndpoint
+    }),
     AngularSvgIconModule.forRoot(),
     FormsModule,
     DragDropModule,
@@ -40,9 +47,7 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
     AdminModule,
     FrontModule,
   ],
-  providers: [
-    authInterceptorProviders,
-  ],
+  providers: [authInterceptorProviders],
   bootstrap: [AppComponent],
 })
 export class AppModule {

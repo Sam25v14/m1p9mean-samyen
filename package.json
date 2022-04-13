@@ -35,6 +35,7 @@
     "angular-svg-icon": "^13.0.0",
     "concurrently": "^7.0.0",
     "flowbite": "^1.4.1",
+    "imagekitio-angular": "^1.0.2",
     "ng-apexcharts": "^1.7.0",
     "ngx-drag-drop": "^13.0.0",
     "ngx-infinite-scroll": "^13.0.1",

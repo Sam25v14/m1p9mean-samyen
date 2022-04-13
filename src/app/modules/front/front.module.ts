@@ -25,6 +25,7 @@ import { SideFilterComponent } from './components/side-filter/side-filter.compon
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { PanierFixeComponent } from './components/panier-fixe/panier-fixe.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { ImagekitioAngularModule } from 'imagekitio-angular';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
   imports: [
     CommonModule,
     FrontRoutingModule,
+    ImagekitioAngularModule,
     DragDropModule,
     InfiniteScrollModule,
     AngularSvgIconModule,
