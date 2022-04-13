@@ -18,17 +18,19 @@ router.get("/all", function (req, res, next) {
     });
 });
 
-router.get("/plats", function (req, res, next) {
-  const _id = req.query.resto;
-  const filter = _id && _id !== 'undefined' ? { _id } : {};
+router.get("/plats/:resto", function (req, res, next) {
+  const _id = req.params.resto;
+  const filter = _id && _id !== "undefined" ? { _id } : {};
+
+  const { skip, offset } = req.query;
 
   Restaurant.find(filter)
     .select({ plats: 1 })
-    .populate("plats")
+    .populate([{ path: "plats", options: { skip: skip, limit: offset } }])
     .exec((err, user) => {
       if (err) return next(err);
 
-      res.json(user);
+      return res.json(user);
     });
 });
 

@@ -17,7 +17,6 @@ export class ChoixRestoComponent implements OnInit {
     private clientService: ClientService,
     private _router: Router
   ) {
-    apiService.baseRoute = 'restaurant';
   }
 
   handleError(error: any) {
@@ -31,7 +30,7 @@ export class ChoixRestoComponent implements OnInit {
 
   ngOnInit(): void {
     this.apiService
-      .get('/all')
+      .get('/restaurant/all')
       .pipe(catchError((error) => this.handleError(error)))
       .subscribe((data) => this.handleSuccess(data));
   }

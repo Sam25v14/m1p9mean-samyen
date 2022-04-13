@@ -38,6 +38,9 @@ module.exports = {
       padding:{
         '129': '45rem',
         '84' : '84px'
+      },
+      width: {
+        '102': '60rem'
       }
     }
   },

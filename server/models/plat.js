@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+require('./categorie-plat');
 
 const PlatSchema = new mongoose.Schema({
     nom: {
@@ -10,6 +11,7 @@ const PlatSchema = new mongoose.Schema({
     },
     categorie: {
         type: mongoose.Schema.Types.ObjectId,
+        ref: 'CategoriePlat'
     },
     calorie: {
         type: Number,

@@ -1,11 +1,25 @@
-<div class="w-full p-7 flex flex-wrap h-200 overflow-y-auto bg-grayBg">
+<div
+  class="w-full p-7 flex flex-wrap h-auto bg-grayBg"
+  infinite-scroll
+  (scrolled)="onScrollDown($event)"
+  (scrolledUp)="onScrollUp($event)"
+  cdkDropList
+  id="platsList"
+  [cdkDropListData]="plats"
+  cdkDropListConnectedTo="commandeList"
+>
   <!--Product card-->
   <div
-    *ngFor="let plat of plats"
-    class="bg-white h-96 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 mx-7 my-2"
-    style="max-width: 17rem;"
+    *ngFor="let plat of plats; let i = index"
+    class="bg-white h-96 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2 z-10"
+    style="max-width: 17rem"
+    id="target{{ i + 1 }}"
+    cdkDrag
   >
-    <a href="#">
+    <div class="bg-white shadow p-5" *cdkDragPreview>
+      {{plat.nom}}
+    </div>
+    <a>
       <img
         class="p-8 rounded-t-lg w-60 m-auto"
         src="../../assets/pizza.png"
@@ -13,7 +27,7 @@
       />
     </a>
     <div class="px-5 pb-5">
-      <a href="#">
+      <a>
         <h5
           class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
         >

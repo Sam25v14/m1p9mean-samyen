@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { catchError } from 'rxjs';
-import { ApiService } from 'src/app/services/api.service';
 import { ClientService } from 'src/app/services/client.service';
+import { RestaurantService } from 'src/app/services/restaurant.service';
 
 @Component({
   selector: 'app-list-produit',
@@ -11,11 +11,15 @@ import { ClientService } from 'src/app/services/client.service';
 })
 export class ListProduitComponent implements OnInit {
   plats: Array<any> = [];
-
+  @Output() platsItemsEvent = new EventEmitter();
+  public endLimit: number = 6;
+  public skip: number = 0;
+  resto: any;
+  
   constructor(
     private clientService: ClientService,
-    private apiService: ApiService,
-    private _router: Router
+    private restoService: RestaurantService,
+    private _router: Router // private scrollService: InfiniteScrolling
   ) {}
 
   handleError(error: any) {
@@ -24,17 +28,32 @@ export class ListProduitComponent implements OnInit {
   }
 
   handleSuccess(plats: any): void {
-    console.log(plats);
-    this.plats = plats;
+    this.plats = this.plats.concat(plats);
+    this.skip += this.endLimit;
+
+    this.platsItemsEvent.emit(this.plats);
+  }
+
+  onScrollDown(ev: any) {
+    if (this.resto._id) {
+      this.restoService
+        .getPlats(this.resto._id, this.skip, this.endLimit)
+        .pipe(catchError((error) => this.handleError(error)))
+        .subscribe((data: any) => this.handleSuccess(data[0].plats));
+    }
+  }
+
+  onScrollUp(ev: any) {
+    // console.log('scrolled up!', ev);
   }
 
   ngOnInit() {
-    const resto = this.clientService.getResto();
-    // if (resto._id) {
-      this.apiService
-        .get(`restaurant/plats?resto=${resto._id}`)
+    this.resto = this.clientService.getResto();
+    if (this.resto._id) {
+      this.restoService
+        .getPlats(this.resto._id, this.skip, this.endLimit)
         .pipe(catchError((error) => this.handleError(error)))
         .subscribe((data: any) => this.handleSuccess(data[0].plats));
-    // }
+    }
   }
 }

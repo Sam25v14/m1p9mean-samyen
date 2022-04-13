@@ -17,6 +17,8 @@ import { AdminModule } from './modules/admin/admin.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FrontModule } from './modules/front/front.module';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
     BrowserAnimationsModule,
     AngularSvgIconModule.forRoot(),
     FormsModule,
+    DragDropModule,
+    InfiniteScrollModule,
     AdminModule,
     FrontModule,
   ],
