@@ -21,6 +21,9 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { environment } from 'src/environments/environment';
 import { ImagekitioAngularModule } from 'imagekitio-angular';
+import { registerLocaleData } from '@angular/common';
+import localeFr from '@angular/common/locales/fr';
+registerLocaleData(localeFr, 'fr');
 
 @NgModule({
   declarations: [

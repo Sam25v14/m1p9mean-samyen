@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 
 const RESTO_KEY = 'RESTO';
-const TOKEN_KEY = 'ACCESS_TOKEN';
 
 @Injectable({
   providedIn: 'root',
@@ -15,9 +14,9 @@ export class ClientService {
   }
 
   public getResto(): any {
-    const user = window.sessionStorage.getItem(RESTO_KEY);
-    if (user) {
-      return JSON.parse(user);
+    const resto = window.sessionStorage.getItem(RESTO_KEY);
+    if (resto) {
+      return JSON.parse(resto);
     }
     return {};
   }

@@ -1,6 +1,6 @@
 <div class="w-full h-auto bg-grayBg sticky top-10 p-4 shadow-inner">
   <div class="h-auto bg-white shadow-sm">
-    <section class="text-center">
+    <section class="relative text-center">
       <div class="absolute bg-rougemate w-20 h-20 header-icon">
         <svg
           version="1.1"
@@ -52,6 +52,63 @@
       <div class="pt-12 mb-5">
         <h3 class="text-xl font-medium uppercase">Votre commande</h3>
       </div>
+      <button
+        data-dropdown-toggle="menu"
+        data-dropdown-placement="bottom"
+        type="button"
+        class="absolute top-2 right-3 p-2 rounded hover:bg-gray-100"
+        aria-expanded="false"
+        aria-haspopup="true"
+        id="panier-menu-button"
+      >
+        <svg
+          width="24px"
+          height="24px"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: #000;
+                stroke-linecap: round;
+                stroke-linejoin: bevel;
+                stroke-width: 1.5px;
+              }
+            </style>
+          </defs>
+          <g id="ic-actions-more-1">
+            <circle class="cls-1" cx="4.19" cy="11.98" r="2" />
+            <circle class="cls-1" cx="12" cy="12.02" r="2" />
+            <circle class="cls-1" cx="19.81" cy="11.98" r="2" />
+          </g>
+        </svg>
+      </button>
+      <div
+        id="menu"
+        class="hidden z-10 w-44 text-left bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+      >
+        <ul
+          class="py-1 text-sm text-gray-700 dark:text-gray-200"
+          aria-labelledby="dropdownDefault"
+        >
+          <li>
+            <a
+              href
+              class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+              >Ajouter comme favoris</a
+            >
+          </li>
+        </ul>
+        <div class="py-1">
+          <a
+            (click)="effacer()"
+            class="block py-2 px-4 cursor-pointer text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+            >Effacer tout</a
+          >
+        </div>
+      </div>
     </section>
     <hr />
     <section
@@ -63,12 +120,16 @@
     >
       <div
         *ngFor="let item of commande.plats"
-        class="w-full grid grid-cols-6 px-3 py-2 border-t-2 border-dotted items-center"
+        class="w-full grid grid-cols-7 px-3 py-2 border-t-2 border-dotted items-center"
       >
         <div class="col-span-2">
           <h4 class="font-medium">{{ item.plat.nom }}</h4>
         </div>
-        <div>{{ item.plat.prix }} Ar</div>
+        <div class="col-span-2 text-right">
+          {{
+            item.plat.prix * item.quantite | currency: "MGA":"Ar":"1.2-2":"fr"
+          }}
+        </div>
         <div class="col-span-2">
           <div class="flex">
             <button
@@ -81,9 +142,10 @@
             </button>
             <div class="h-fit self-center hover:border-2">
               <input
-                type="text"
+                type="number"
                 name="qty"
                 min="1"
+                [(ngModel)]="item.quantite"
                 class="w-14 border-none text-center"
                 value="{{ item.quantite }}"
               />
@@ -195,6 +257,11 @@
       <p class="text-gray-300 text-center my-5">Déposez votre commande ici</p>
     </section>
     <hr />
-    <section class="h-16 text-center">Footer</section>
+    <section class="h-16 grid grid-cols-2 items-center">
+      <div class="font-medium text-center">TOTAL</div>
+      <div class="text-center">
+        {{ calculTotal() | currency: "MGA":"Ar":"1.2-2":"fr" }}
+      </div>
+    </section>
   </div>
 </div>

@@ -1,5 +1,5 @@
 import { CdkDragDrop, copyArrayItem } from '@angular/cdk/drag-drop';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-panier-fixe',
@@ -23,8 +23,21 @@ export class PanierFixeComponent implements OnInit {
     }
   }
 
+  effacer() {
+    this.commande.plats = [];
+  }
+
+  calculTotal() {
+    return this.commande.plats.reduce(
+      (sum: number, item: any) => sum + item.quantite * item.plat.prix,
+      0
+    );
+  }
+
   remove(item: any) {
-    this.commande.plats = this.commande.plats.filter((data: any) => data !== item);
+    this.commande.plats = this.commande.plats.filter(
+      (data: any) => data !== item
+    );
   }
 
   ajouter(item: any) {

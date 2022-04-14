@@ -26,6 +26,7 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { PanierFixeComponent } from './components/panier-fixe/panier-fixe.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ImagekitioAngularModule } from 'imagekitio-angular';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { ImagekitioAngularModule } from 'imagekitio-angular';
   imports: [
     CommonModule,
     FrontRoutingModule,
+    FormsModule,
     ImagekitioAngularModule,
     DragDropModule,
     InfiniteScrollModule,
