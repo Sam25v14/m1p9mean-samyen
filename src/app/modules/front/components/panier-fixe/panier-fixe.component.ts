@@ -1,5 +1,14 @@
 import { CdkDragDrop, copyArrayItem } from '@angular/cdk/drag-drop';
-import { Component, Input, OnInit } from '@angular/core';
+import {
+  ChangeDetectorRef,
+  Component,
+  ElementRef,
+  Input,
+  OnInit,
+  SimpleChanges,
+  ViewChild,
+} from '@angular/core';
+import { CommandeService } from 'src/app/services/commande.service';
 
 @Component({
   selector: 'app-panier-fixe',
@@ -7,24 +16,44 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./panier-fixe.component.scss'],
 })
 export class PanierFixeComponent implements OnInit {
-  commande: any = {
+  @Input() commande: any = {
     plats: [],
   };
 
   @Input() plats: Array<any> = [];
 
-  constructor() {}
+  constructor(
+    private commandeService: CommandeService,
+    private cdRef: ChangeDetectorRef
+  ) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.commande = this.commandeService.commande;
+  }
 
   enlever(item: any) {
-    if (item.quantite > 1) {
-      item.quantite -= 1;
-    }
+    this.commandeService.doAction((data: any) => {
+      if (data.quantite > 1) {
+        data.quantite -= 1;
+      }
+    }, item);
+  }
+
+  effacer() {
+    this.commandeService.doAction(() => this.commande.plats = []);
+  }
+
+  calculTotal() {
+    return this.commande.plats.reduce(
+      (sum: number, item: any) => sum + item.quantite * item.plat.prix,
+      0
+    );
   }
 
   remove(item: any) {
-    this.commande.plats = this.commande.plats.filter((data: any) => data !== item);
+    this.commande.plats = this.commande.plats.filter(
+      (data: any) => data !== item
+    );
   }
 
   ajouter(item: any) {
@@ -34,14 +63,8 @@ export class PanierFixeComponent implements OnInit {
   drop(event: CdkDragDrop<string[]>) {
     // copyArrayItem(this.plats, this.commandes, event.previousIndex, event.currentIndex);
 
-    const item = { plat: this.plats[event.previousIndex], quantite: 1 };
-    const enCommande = this.commande.plats.filter(
-      (data: any) => data.plat._id === item.plat._id
-    );
-    if (enCommande.length > 0) {
-      enCommande[0].quantite += 1;
-    } else {
-      this.commande.plats.push(item);
-    }
+    const item = this.plats[event.previousIndex];
+
+    this.commandeService.ajouterAuPanier(item);
   }
 }

@@ -2,6 +2,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { catchError } from 'rxjs';
 import { ClientService } from 'src/app/services/client.service';
+import { CommandeService } from 'src/app/services/commande.service';
 import { RestaurantService } from 'src/app/services/restaurant.service';
 
 @Component({
@@ -19,8 +20,13 @@ export class ListProduitComponent implements OnInit {
   constructor(
     private clientService: ClientService,
     private restoService: RestaurantService,
-    private _router: Router // private scrollService: InfiniteScrolling
+    private _router: Router,
+    private commandeService: CommandeService
   ) {}
+
+  ajouterAuPanier(item: any) {
+    this.commandeService.ajouterAuPanier(item);
+  }
 
   handleError(error: any) {
     console.log(error.error);
