@@ -16,9 +16,6 @@ export class ListProduitComponent implements OnInit {
   public endLimit: number = 6;
   public skip: number = 0;
   resto: any;
-  commande: any = {
-    plats: []
-  }
   
   constructor(
     private clientService: ClientService,
@@ -27,8 +24,8 @@ export class ListProduitComponent implements OnInit {
     private commandeService: CommandeService
   ) {}
 
-  ajouterPanier(item: any) {
-      
+  ajouterAuPanier(item: any) {
+    this.commandeService.ajouterAuPanier(item);
   }
 
   handleError(error: any) {

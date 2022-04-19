@@ -9,12 +9,12 @@ export class ClientService {
   constructor() {}
 
   public changerResto(resto: any): void {
-    window.sessionStorage.removeItem(RESTO_KEY);
-    window.sessionStorage.setItem(RESTO_KEY, JSON.stringify(resto));
+    window.localStorage.removeItem(RESTO_KEY);
+    window.localStorage.setItem(RESTO_KEY, JSON.stringify(resto));
   }
 
   public getResto(): any {
-    const resto = window.sessionStorage.getItem(RESTO_KEY);
+    const resto = window.localStorage.getItem(RESTO_KEY);
     if (resto) {
       return JSON.parse(resto);
     }
